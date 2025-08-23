@@ -1,0 +1,120 @@
+.header-cadastro-produto {
+    padding: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.h1-header {  
+    margin: 10px 20px;  
+    font-weight: bold;
+} 
+
+.p-header {
+    margin: 20px 0;     
+} 
+.link-header {
+    margin: 0 20px 0 0; 
+    font-weight: bold;
+    text-decoration: none; 
+    color: rgb(245, 250, 255); 
+    padding: 30px;
+} 
+.link-header:hover {
+    background-color: rgb(30, 30, 31);  
+    border-radius: 5px; 
+}  
+
+.div-container-cadastro-produto{ 
+    display: flex;  
+    flex-direction: column;
+    margin: 20px auto;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+}
+
+.form-cadastro-produto  {
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+    padding: 50px; 
+    width: 50%; 
+    border-radius: 8px;   
+    border: 1px solid rgb(150, 158, 171); 
+}  
+
+
+.input-produto-image{ 
+    display: none;
+}
+.custom-button{ 
+    padding: 50px;  
+    border-radius: 4px;
+    background-color: none;
+    border: 1px dotted rgb(150, 158, 171);  
+    color:rgb(150, 158, 171); 
+    cursor: pointer;
+}
+.custom-button:hover{ 
+    border-color: rgb(102, 51, 204);
+}
+.label-produto{ 
+    font-size: 18px;
+    text-align: left; 
+    width: 62%;
+    margin: 10px 0;
+    font-weight: 600;
+}    
+.input-produto{ 
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(112, 112, 112);  
+    width: 60%;
+    background-color: rgb(10, 10, 11);
+    color: rgb(245, 250, 255);
+}
+.select-produto{ 
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(112, 112, 112);  
+    width: 60%;
+    background-color: rgb(10, 10, 11); 
+    color: rgb(112, 112, 112);
+}   
+.select-produto:hover{
+    background-color: rgb(30, 30, 31);
+    color: rgb(245, 250, 255);
+} 
+.select-produto option:active{
+    background-color: rgb(30, 30, 31);
+    color: rgb(245, 250, 255);
+} 
+.textarea-produto{ 
+    margin: 10px 0;
+    padding: 50px 10px;
+    border-radius: 4px;
+    border: 1px dotted rgb(112, 112, 112);  
+    width: 60%;
+    background-color: rgb(10, 10, 11);; 
+    color: rgb(245, 250, 255);
+} 
+.btn-cadastrar-produto { 
+  margin: 20px 0;
+  background-color: rgb(102, 51, 204);   
+  color: rgb(236, 240, 243);  
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 4px; 
+  width: 63%;
+  cursor: pointer;
+} 
+
+.btn-cadastrar-produto:hover {  
+  background-color: rgb(128, 51, 204);  
+  cursor: pointer;
+}

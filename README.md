@@ -9,10 +9,13 @@ Tecnologias utilzadas:
 
   Antes de rodar o projeto na sua máquina, observe se essas tecnologias existem na sua máquina. Quando todas as tecnologias estiverem baixadas, crie o banco de dados **Marktplace**  
   no Postgres da sua máquina. 
+
   Agora para executar o backend, abra a pasta /Backend/projetct_marktplace no terminal e digite o seguinte comando: 
+
           No Widows:  **.\gradlew bootRun** 
+
           No Linux:  **.\gradlew bootRun**
   
-  Agora a abra a pasta /Front-end/app e digite o comando: **npm start**
+  Agora a abra a pasta /Front-end/app e digite o comando no terminal: **npm start**
 
   Para ver o vídeo da demonstração do funciomanento do projeto [clique aqui](https://youtu.be/-LthTbAEF54)

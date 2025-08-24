@@ -1,10 +1,11 @@
 # Documentação projeto 
 
-  Tecnologias utilzadas: 
-    * Java  21.0.6 
-    * Node 18.0.5 
-    * React 19.1.1 
-    * Postgres 17 
+Tecnologias utilzadas: 
+* Java  21.0.6 
+* Node 18.0.5 
+* React 19.1.1 
+* Postgres 17  
+    
 
     Antes de rodar o projeto na sua máquina, observe se essas tecnologias existem na sua máquina. Quando todas as tecnologias estiverem baixadas, crie o banco de dados **Marktplace**  
   no Postgres da sua máquina. 

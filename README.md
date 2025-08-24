@@ -11,13 +11,14 @@ Tecnologias utilzadas:
   no Postgres da sua máquina. 
     Agora abra a pasta /Backend no terminal e digite o seguinte comando: 
       No Widows:  
-        ˋˋˋ
+  ˋˋˋ
           .\gradlew bootRun
-       ˋˋˋ 
-       No Linux:  
-         ˋˋˋ
+  ˋˋˋ 
+
+  No Linux:  
+  ˋˋˋ
           gradlew bootRun
-       ˋˋˋ  
+   ˋˋˋ  
 
       Agora a abra a pasta /Front-end/app e digite o comando: 
       ˋˋˋ

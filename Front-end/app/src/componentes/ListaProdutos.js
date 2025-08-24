@@ -10,9 +10,24 @@ export default function ListaProdutos() {
   
   const [produtos, setProdutos] = useState([]);
 
+  const [timerId, setTimerId] = useState(null);
+
+    const handleMouseEnter = () => {
+        const id = setTimeout(() => {
+            alert('Tá esperando o quê? Boraa moeer!! 🚀');
+        }, 7000);
+        setTimerId(id);
+    }; 
+    const handleMouseLeave = () => {
+        if (timerId) {
+            clearTimeout(timerId);
+            setTimerId(null);
+        }
+    };
   useEffect(() => {
     handleFilterChange();
   }, []);
+
 
   const handleFilterChange = async (e) => {  
       if (e) e.preventDefault();
@@ -37,7 +52,7 @@ export default function ListaProdutos() {
                   <h1 className="h1-header">Lista de Produtos</h1>
                   <p className="p-header">Gerencie todos os produtos do sistema</p>
               </div> 
-              <p className="p-link-header-produto"><Link to="/cadastrar-produtos" className="link-header-produto">+ Novo Produto</Link></p>
+              <p className="p-link-header-produto"><Link to="/cadastrar-produtos" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="link-header-produto">+ Novo Produto</Link></p>
       </header> 
       <div className="form-filtro-container">  
         <p className="form-title">Filtros</p>

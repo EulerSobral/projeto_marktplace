@@ -7,9 +7,9 @@ Tecnologias utilzadas:
 * Postgres 17  
     
 
-    Antes de rodar o projeto na sua máquina, observe se essas tecnologias existem na sua máquina. Quando todas as tecnologias estiverem baixadas, crie o banco de dados **Marktplace**  
+  Antes de rodar o projeto na sua máquina, observe se essas tecnologias existem na sua máquina. Quando todas as tecnologias estiverem baixadas, crie o banco de dados **Marktplace**  
   no Postgres da sua máquina. 
-    Agora abra a pasta /Backend no terminal e digite o seguinte comando: 
+  Agora para executar o backend, abra a pasta /Backend/projetct_marktplace no terminal e digite o seguinte comando: 
           No Widows:  **.\gradlew bootRun** 
           No Linux:  **.\gradlew bootRun**
   

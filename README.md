@@ -14,3 +14,5 @@ Tecnologias utilzadas:
           No Linux:  **.\gradlew bootRun**
   
   Agora a abra a pasta /Front-end/app e digite o comando: **npm start**
+
+  Para ver o vídeo da demonstração do funciomanento do projeto [clique aqui](https://youtu.be/-LthTbAEF54)
